@@ -1,1 +1,19 @@
-include ':nodestyle', ':mobile', ':wear', ':samremotecommon'
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'SamRemoteReloaded'
+// Wear sources remain for a later port of the phone revival's shared transport.
+include ':mobile', ':samremotecommon'

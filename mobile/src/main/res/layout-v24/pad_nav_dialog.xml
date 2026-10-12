@@ -25,57 +25,57 @@
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true" />
 
-        <ImageView
+        <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:src="@drawable/up"
             android:id="@+id/dialog_up"
-            android:tint="@android:color/background_light"
+            app:tint="@android:color/background_light"
             android:layout_alignTop="@+id/bg"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp" />
 
-        <ImageView
+        <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:src="@drawable/right"
             android:id="@+id/dialog_right"
-            android:tint="@android:color/background_light"
+            app:tint="@android:color/background_light"
             android:layout_alignTop="@+id/dialog_left"
             android:layout_alignEnd="@+id/bg"
             android:layout_marginEnd="16dp" />
 
-        <ImageView
+        <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:src="@drawable/left"
             android:id="@+id/dialog_left"
-            android:tint="@android:color/background_light"
+            app:tint="@android:color/background_light"
             android:layout_centerVertical="true"
             android:layout_alignStart="@+id/bg"
             android:layout_marginStart="16dp" />
 
-        <ImageView
+        <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:src="@drawable/down"
             android:id="@+id/dialog_down"
-            android:tint="@android:color/background_light"
+            app:tint="@android:color/background_light"
             android:layout_alignBottom="@+id/bg"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="16dp" />
 
-        <ImageButton
+        <androidx.appcompat.widget.AppCompatImageButton
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:clickable="false"
             android:src="@drawable/ok"
             android:id="@+id/dialog_ok"
-            android:tint="@android:color/background_light"
+            app:tint="@android:color/background_light"
             android:scaleType="fitCenter"
             style="@style/Base.Widget.AppCompat.Button.Borderless"
             android:layout_centerVertical="true"

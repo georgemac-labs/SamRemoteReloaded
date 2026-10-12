@@ -1,41 +1,38 @@
-apply plugin: 'com.android.application'
+plugins {
+    id 'com.android.application'
+}
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion '28.0.3'
+    namespace = 'mkg20001.net.samremote'
+    compileSdk 36
 
     defaultConfig {
-        applicationId "mkg20001.net.samremote"
-        minSdkVersion 21
-        targetSdkVersion 28
-        versionCode 10100
-        versionName "1.1"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        // Enabling multidex support.
-        multiDexEnabled true
+        applicationId 'mkg20001.net.samremote'
+        minSdk 21
+        targetSdk 36
+        versionCode 10101
+        versionName '1.2-dev'
+        resValue 'string', 'application_id', applicationId
     }
     buildTypes {
+        debug {
+            applicationIdSuffix '.debug'
+            resValue 'string', 'application_id', 'mkg20001.net.samremote.debug'
+        }
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    lintOptions {
-        abortOnError false
-    }
-    adbOptions {
-        timeOutInMs 60000 // set timeout to 1 minute
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 }
 
 dependencies {
-    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
     implementation project(':samremotecommon')
-    //wearApp project(':wear')
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.android.support:design:28.0.0'
-    implementation 'com.android.support:multidex:1.0.3'
-    testImplementation 'junit:junit:4.12'
+    implementation 'androidx.appcompat:appcompat:1.7.1'
+    implementation 'com.google.android.material:material:1.13.0'
+    testImplementation 'junit:junit:4.13.2'
 }

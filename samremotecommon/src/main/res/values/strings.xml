@@ -22,5 +22,26 @@
     <string name="key_power">Turn Off</string>
     <string name="key_chlist">Channel List</string>
     <string name="shortcut_na">Shortcut not available</string>
+    <string name="select_tv">Select TV</string>
+    <string name="manual_ip">Enter TV IP address</string>
+    <string name="connect">Connect</string>
+    <string name="connecting">Connecting to TV…</string>
+    <string name="approve_on_tv">Allow Sam Remote on your TV</string>
+    <string name="access_denied">TV access denied. Tap here to retry.</string>
+    <string name="connection_timeout">TV connection timed out. Tap here to retry.</string>
+    <string name="connection_failed">TV connection failed. Tap here to retry.</string>
+    <string name="no_wifi">Connect your phone to the TV’s Wi-Fi network.</string>
+    <string name="network_denied">Local network access denied. Check app permissions.</string>
+    <string name="network_changed">Wi-Fi network changed. Tap here to search again.</string>
+    <string name="search_failed">TV search failed. Tap here to retry.</string>
+    <string name="discovery_empty">No supported TV found. Check that the TV is on and on the same network, or enter its IP address.</string>
+    <string name="ip_hint">192.168.0.13</string>
+    <string name="invalid_ip">Enter a valid IPv4 address.</string>
+    <string name="legacy_candidate">Possible legacy TV (%1$s)</string>
+    <string name="tv_address">%1$s (%2$s)</string>
+    <string name="control_back">Back</string>
+    <string name="control_home">Home</string>
+    <string name="control_play_pause">Play/Pause</string>
+    <string name="legacy_play_pause_hint">Tap to pause; touch and hold to play.</string>
     <string name="key_menu">Open Menu</string>
 </resources>

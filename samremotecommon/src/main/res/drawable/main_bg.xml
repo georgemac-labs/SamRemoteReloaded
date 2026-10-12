@@ -9,7 +9,7 @@
         android:fillColor="#8D8D8D"
         android:strokeWidth="5"/>
     <path
-        android:pathData="M256,256m-150,0a150,150 0,1 1,300 0a150,150 0,1 1,-300 0"
+        android:pathData="M256,256m-120,0a120,120 0,1 1,240 0a120,120 0,1 1,-240 0"
         android:strokeColor="#2C2C2C"
         android:fillColor="#3C3C3C"
         android:strokeWidth="5"/>

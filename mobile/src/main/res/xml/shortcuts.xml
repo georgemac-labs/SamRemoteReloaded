@@ -11,7 +11,7 @@
         android:shortcutDisabledMessage="@string/shortcut_na">
         <intent
             android:action="samremote.poweroff"
-            android:targetPackage="mkg20001.net.samremote"
+            android:targetPackage="@string/application_id"
             android:targetClass="mkg20001.net.samremote.Remote" />
         <categories android:name="android.shortcut.remote" />
     </shortcut>
@@ -24,7 +24,7 @@
         android:shortcutDisabledMessage="@string/shortcut_na">
         <intent
             android:action="samremote.menu"
-            android:targetPackage="mkg20001.net.samremote"
+            android:targetPackage="@string/application_id"
             android:targetClass="mkg20001.net.samremote.Remote" />
         <categories android:name="android.shortcut.remote" />
     </shortcut>
@@ -37,7 +37,7 @@
         android:shortcutDisabledMessage="@string/shortcut_na">
         <intent
             android:action="samremote.source"
-            android:targetPackage="mkg20001.net.samremote"
+            android:targetPackage="@string/application_id"
             android:targetClass="mkg20001.net.samremote.Remote" />
         <categories android:name="android.shortcut.remote" />
     </shortcut>
@@ -50,7 +50,7 @@
         android:shortcutDisabledMessage="@string/shortcut_na">
         <intent
             android:action="samremote.chlist"
-            android:targetPackage="mkg20001.net.samremote"
+            android:targetPackage="@string/application_id"
             android:targetClass="mkg20001.net.samremote.Remote"/>
         <categories android:name="android.shortcut.remote" />
     </shortcut>

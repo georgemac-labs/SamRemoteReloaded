@@ -21,4 +21,25 @@
     <string name="key_chlist">Kanal Liste</string>
     <string name="shortcut_na">Abkürzung ist nicht verfügbar</string>
     <string name="key_menu">Menü Öffnen</string>
+    <string name="select_tv">Fernseher auswählen</string>
+    <string name="manual_ip">IP-Adresse des Fernsehers eingeben</string>
+    <string name="connect">Verbinden</string>
+    <string name="connecting">Verbindung zum Fernseher wird hergestellt…</string>
+    <string name="approve_on_tv">Sam Remote am Fernseher zulassen</string>
+    <string name="access_denied">Zugriff verweigert. Zum Wiederholen hier tippen.</string>
+    <string name="connection_timeout">Zeitüberschreitung. Zum Wiederholen hier tippen.</string>
+    <string name="connection_failed">Verbindung fehlgeschlagen. Zum Wiederholen hier tippen.</string>
+    <string name="no_wifi">Das Handy mit dem WLAN des Fernsehers verbinden.</string>
+    <string name="network_denied">Zugriff auf das lokale Netzwerk verweigert. App-Berechtigungen prüfen.</string>
+    <string name="network_changed">WLAN gewechselt. Für eine neue Suche hier tippen.</string>
+    <string name="search_failed">TV-Suche fehlgeschlagen. Zum Wiederholen hier tippen.</string>
+    <string name="discovery_empty">Kein unterstützter Fernseher gefunden. Prüfen, ob der Fernseher eingeschaltet und im selben Netzwerk ist, oder seine IP-Adresse eingeben.</string>
+    <string name="ip_hint">192.168.0.13</string>
+    <string name="invalid_ip">Eine gültige IPv4-Adresse eingeben.</string>
+    <string name="legacy_candidate">Möglicher älterer Fernseher (%1$s)</string>
+    <string name="tv_address">%1$s (%2$s)</string>
+    <string name="control_back">Zurück</string>
+    <string name="control_home">Startseite</string>
+    <string name="control_play_pause">Wiedergabe/Pause</string>
+    <string name="legacy_play_pause_hint">Zum Pausieren tippen; zur Wiedergabe gedrückt halten.</string>
 </resources>
